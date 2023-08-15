@@ -1,0 +1,29 @@
+[project]
+name = "db-build"
+version = "0.1"
+description = "Tools for building SQLite databases from files and directories"
+readme = "README.md"
+authors = [{name = "Simon Willison"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "click",
+    "sqlite-utils",
+]
+
+[project.scripts]
+db-build = "db_build.cli:cli"
+
+[project.urls]
+Homepage = "https://github.com/simonw/db-buld"
+Changelog = "https://github.com/simonw/db-buld/releases"
+Issues = "https://github.com/simonw/db-buld/issues"
+CI = "https://github.com/simonw/db-buld/actions"
+
+[project.entry-points.sqlite_utils]
+db_build = "db_build.sqlite_utils_plugin"
+
+[project.optional-dependencies]
+test = ["pytest"]

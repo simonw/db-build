@@ -1,0 +1,8 @@
+county,precinct,office,district,party,candidate,votes
+Yolo,100001,President,,LIB,Gary Johnson,41
+Yolo,100001,President,,PAF,Gloria Estela La Riva,8
+Yolo,100001,Proposition 51,,,No,398
+Yolo,100001,Proposition 51,,,Yes,460
+Yolo,100001,State Assembly,7,DEM,Kevin McCarty,572
+Yolo,100001,State Assembly,7,REP,Ryan K. Brown,291
+
